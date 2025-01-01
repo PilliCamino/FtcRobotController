@@ -18,7 +18,7 @@ public class TeleOpDrive extends LinearOpMode {
         DcMotor backLeftMotor = hardwareMap.dcMotor.get("motor2");
         DcMotor frontRightMotor = hardwareMap.dcMotor.get("motor1");
         DcMotor backRightMotor = hardwareMap.dcMotor.get("motor3");
-        DcMotor armMotor = hardwareMap.dcMotor.get("armMotor");
+        //DcMotor armMotor = hardwareMap.dcMotor.get("armMotor");
 
         // Reverse the right side motors. This may be wrong for your setup.
         // If your robot moves backwards when commanded to go forwards,
